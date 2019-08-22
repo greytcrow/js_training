@@ -1,23 +1,4 @@
-function isUpperCase(str) {
-	return str === str.toUpperCase();
-}
-
-let word = "";
-let letter;
-
-while(true)
-{
-	letter = prompt('Parle a ton ado');
-
-	if(letter.length >= 1)
-	{
-		word += letter;
-	}
-	else
-	{
-		break; 
-	}
-}
+let word = prompt('Parle a ton ado');
 
 if (word === "")
 	console.log("t'es en PLS ?");
