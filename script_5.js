@@ -40,6 +40,7 @@ function rentCompare(a,b)
 sorted_list.sort(rentCompare);
 
 console.log(sorted_list[0]);
+console.log(sorted_list[sorted_list.length - 1]);
 
 function book_id(a)
 {
